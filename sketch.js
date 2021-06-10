@@ -34,7 +34,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(1500, 1500);
+  createCanvas(800, 200);
   
   trex = createSprite(50,180,20,50);
   
@@ -70,7 +70,7 @@ function setup() {
 
 function draw() {
   //trex.debug = true;
-  background("red");
+  background("grey");
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
